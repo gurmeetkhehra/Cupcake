@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>cococnut Cupcakes</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+    <meta name="author" content="Khivi's&#39;s CupCakes Shop">
+    <meta name="description" content="Store front for Khivi's&#39;s CupCakes Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/png" href="https://cupcake.khivi.com/.png> -->
+    <link rel="stylesheet" type="text/css" href="style5.css">
+    <script>
+        function save(){
+            localStorage.setItem("coconutcupcake", true);
+        }
+        window.onload=function(){
+            var favorite = document.getElementById('favorite');
+            if(window.localStorage)
+        {
+        var storage= window.localStorage;
+        if(storage.getItem("cococnutcupcake")=='true')
+        {
+            favorite.innerHTML = "Coconut Cupcake is one of your favorites";
+        }
+
+        }
+
+        }
+       
+
+    
+    </script>
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+    <ul>
+        <li><img src="Cupcake.png" height="55"></li>
+        <li><a href="Khivicupcake.html">Home</a></li>
+        <li><a href="allcupcake.html">All Cupcakes</a></li>
+    </ul>
+</nav>
+</header>
+
+    <div style="width:1300px;margin-left:auto;margin-right: auto;">
+        <aside id="leftmenu">
+            <a href=""><img src="Cupcake.png" width= "200" height="200">
+
+                <header>
+                    <h4 style="text-align:left">Browser our cupcakes</h4>
+                </header>
+                <input type="search" class="searchbox" placeholder="Search our store"/>
+                <!-- <ol type="">
+                    <li><a href="/">All Cupcake</a></li>
+                    <li><a href="/">Chesse Cupcake</a></li>
+                    <li><a href="/">Seasonal Cupcake</a></li>
+                    <li><a href="/">Promotion</a></li>
+
+                </ol> -->
+            </aside>
+        <main id="main">
+            <article>
+                <header>
+                    <h1 style="font-size:35px;color:#a593c2">Coconut CupCakes</h1>
+                </header>
+                <figure>
+                    <a href="coconut.jpg"target="_blank">
+                        <img src="coconut.jpg" width="600"
+                        alt="coconut cupcakes" /></a>
+                       
+                    <figcaption>Our world-famous coconut cupcakes</figcaption>
+                </figure>
+                <p>
+                <button onclick="save()" type="button">Save as favorite</button>
+                <span id="favorite"></span>
+            </p>
+
+                <div style="background-color:#f8f4f1;">
+                    <strong>Price: $2.95</strong>
+                    <h2>Description</h2>
+                    <p>
+                        Khivi received the recipe for this delicious apple pie from her aunt. At the age of 5,
+                        she
+                        was
+                        already baking this <em>traditional punjabi coconut</em> cupcakes at her home.
+                        As the recipe goes a long way back, it contains the most typical ingredients used for so many
+                        years
+                        to
+                        make this classic even today one of our most popular pies.
+                    </p>
+                    <p>
+                        This cupcakes is available <strong>every day</strong> and comes in 2 sizes. <span
+                            style="color:#4dcfa8; font-weight:bold ;">You can serve it cold or warm it for 4 minutes
+                            in
+                            the microwave to give it an extra touch. </span>Your house will smell just like Khivi's
+                        Shop!
+                    </p>
+                    <p>
+                        <blockquote>
+                            This recipe has been in our family for generations. We hope you enjoy this pie as we do -
+                            Khivi
+                        </blockquote>
+                    </p>
+
+                    <p><small>Note that some ingredients make be are dangerous if you have certain allergies. See the
+                            list
+                            of ingredients below.</small></p>
+                    <p><small>Khivi cares about the environment and we try to limit our CO<sub>2</sub> emissions as
+                            much
+                            as possible. See our terms page for more info.</small></p>
+                    <hr>
+
+                    <h2>How we make this cupcakes</h2>
+                    <ol>
+                        <li>
+                            Preheat oven to 350 F and arrange rack in center. Line 1 (12 cup) muffin pan with baking cups;
+                             set aside. Whisk together flour, baking powder and salt in a bowl; set aside. Beat together 
+                             butter and granulated sugar in a large bowl on high speed until light and fluffy, 
+                             about 2 minutes. Add eggs and extract; beat until combined well, about 2 minutes. 
+                             Alternately add flour mixture and coconut milk, beginning and ending with flour mixture, 
+                             beating until just combined.
+                        </li>
+
+                        <li>
+                            Divide batter among baking cups and bake until cupcakes spring back when lightly touched, 
+                            18 to 20 minutes. Cool 10 minutes, remove cupcakes and cool completely on rack.
+                        </li>
+                        <li>
+                            Holding a small knife at ab angle, cut a 1 1/2 inch round in the top of each cupcake, 
+                            forming a shallow cone shaped opening. Remove tops and fill each cupcake with 
+                            2 tablespoons custard; re-cover. Dollop whipped cream on top of each cupcake and 
+                            garnish with toasted coconut flakes.
+                        </li>
+                    </ol>
+
+                    <ol start="5">
+                        <li>If something goes wrong, we start all over again!</li>
+                    </ol>
+
+                    <h3>Ingredients</h3>
+                    <p>Please note that this item contains the following items and possible allergens!</p>
+                    <ul>
+                        <li>Butter</li>
+                        <li>Eggs</li>
+                        <li>Sugar</li>
+                        <ul>
+                            <li>Regular sugar</li>
+                            <li>Brown sugar</li>
+                            <li>Caster sugar</li>
+                        </ul>
+                        <li>Flour</li>
+                        <li>low-fat-coconut milk</li>
+                        <li>heavy cream</li>
+                        <li>baking powder</li>
+                        <li>fresh cup coconut</li>
+                        <li>salt</li>
+                    </ul>
+                </div>
+
+
+            </article>
+
+           
+        </main>
+        <footer>
+            <p>Our address is <address>Khivi's CupCakes Shop - 529 Bakery Street San Jose California</address></p>
+            <small>&copy;2020 Khivi's Cupcakes Shop -All rights reserved</small>
+        </footer>
+    </div>
+
+</body>
+
+</html>

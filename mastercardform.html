@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style2.css" rel="stylesheet">
+
+</head>
+<body>  
+            <div class="container">
+                <form action="/action_page.php" >
+
+
+                            <h3>Billing Address</h3>
+
+                            <label><div>Full Name*</div>
+                                <input name="name" type="text" class="myInput" id="fname" autocomplete="name">
+                                <span>Please provide your full name</span>
+                            </label>
+
+                            <label><div>Address*</div>
+                                <input name="address" type="text" class="myInput" id="faddress" autocomplete="address">
+                                <span>Please provide your mailing address</span>
+                            </label>
+                        
+
+                            <label><div>Cell Number* </div>
+                                <input name="phone" type="tel" class="myInput" placeholder="4325556789" autocomplete="tel">
+                                <span>Phone number needs to be 10-15 digits</span>
+                            </label>
+                            
+
+                            <div>Payment Method*</div>
+                            <label><input name="payMethod" type="radio" class="sbs"> VISA</label>
+                            <label><input name="payMethod" type="radio" class="sbs"> Master Card</label>
+                            <label><input name="payMethod" type="radio" class="sbs"> Discover</label>
+                
+                            <span>Please select a payment method for your cupcakes</span><br>
+                            <br>
+                            <label><div>Credit Card Number*</div>
+                                <input name="ccNumber" type="text" class="myInput" placeholder="1478 5236 9874 1584">
+                                <span>Card number number needs to be 14-19 numbers</span>
+                            </label>
+                         
+                            <label><div>Cupcakes*</div>
+                                <select name="Cupcakes" class="myInput">
+                                    <option value="">Please Select</option>
+                                    <option value="Coconut Cream Cupcakes">Coconut Cream Cupcakes</option>
+                                    <option value="Triple Irish Cream Cupcakes">Triple Irish Cream Cupcakes</option> 
+                                    <option value="Biscoff Cupcakes">Biscoff Cupcakes</option>
+                                    <option value="Lemon Cream Pie Cupcakes">Lemon Cream Pie Cupcakes</option>
+                                    <option value="Pumpkin Cupcakes">Pumpkin Cupcakes</option>
+                                    <option value="Cookie Dough Cupcakes">Cookie Dough Cupcakes</option>
+                                    <option value="	Orange Cream Pop Cupcakes">	Orange Cream Pop Cupcakes</option>
+                                    <option value="Pistachio Cupcakes">Pistachio Cupcakes</option>
+                                </select>
+                            </label>
+                                <span>Please select a Cupcakes</span>
+                                <br><br>
+
+                                <input type="submit" value="Payment" id="submitButton" class="submitBtn">
+
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+    </div>         
+        
+       
+        
+        </form>
+        <script>
+            function val(){
+                let name=document.getElementById('fname');
+              console.log(name.value)===;
+                
+            }
+        </script>
+    
+</body>
+</html>

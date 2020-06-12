@@ -1,0 +1,226 @@
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e6e4d9; 
+    background-image: url(images1.jpeg);
+   
+
+}
+#mainheader{
+    background-color:lightslategray;
+    
+}
+nav>ul{
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow:hidden; */
+}
+nav>ul>li{
+    float:left;
+}
+nav>ul>li a{
+    display:block;
+    color:pink;
+    text-align:center;
+    padding:16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+
+    
+}
+
+#main {
+    float: left;
+    width: 60%;
+    margin-bottom: 20px;
+    /* display:flex;  */
+}
+
+footer {
+    clear: both;
+    width: 100%;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+table,
+td,
+th {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    
+    
+
+}
+ 
+ a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .form-container {
+	background:#fff;
+	padding:37px;
+	position:absolute;
+	width:500px;
+}
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure{display:block;}
+
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+     -ms-flex: 25%; /* IE10 */
+    flex: 25%; 
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  } 
+  
+  .container {
+    background-color: papayawhip;
+    padding: 5px 25px 15px 25px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 55%;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid burlywood;
+    border-radius: 3px;
+  
+   
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 17px;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: lightpink;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price{
+    float: left;
+    color: grey;
+    
+   
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+  #submitButton{
+    color:green;
+    font-size: 30px;
+    background-color: honeydew;
+    border-radius:25px
+  
+  }
+  .myInput{
+    font-size: 18px;
+    background-color: thistle;
+    
+  }
+  .parent{
+      display:flex;
+  }
+
+  .payment{
+      width: 50%;
+  }
+  .table1{
+      width: 70%;
+  }
+  #main1{
+    float: left;
+ 
+    margin-bottom: 20px;
+  }
+  #main2{
+    float: left;
+    width: 60%;
+    margin-bottom: 20px;
+    /* display:flex;  */
+}

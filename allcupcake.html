@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>   
+<head>
+    <title>Welcome Khivi's CupCakes Shop!</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">   
+    <meta name="author" content="Khivi's&#39;s Cupcakes Shop">
+    <meta name="description" content="Store front for Khivi's&#39;s Cupcakes Shop"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/png" href="https://cupcake.khivi.com/.png"> -->
+    <link rel="stylesheet" type="text/css" href="style5.css">
+</head>
+
+<body>
+    <header id="mainheader">
+        <nav>
+    <ul>
+        <li><img src="Cupcake.png" height="55"></li>
+        <li><a href="Khivicupcake.html">Home</a></li>
+        <li><a href="allcupcake.html">All Cupcakes</a></li>
+    </ul>
+</nav>
+</header>
+<br>
+
+<div class="parent">
+    <div class="payment">
+        <div class="container">
+            <form action="/action_page.php" >
+        
+        
+                        <h3>Billing Address</h3>
+        
+                        <label><div>Full Name*</div>
+                            <input name="name" type="text" class="myInput" id="fname" autocomplete="name">
+                            <span>Please provide your full name</span>
+                        </label>
+        
+                        <label><div>Address*</div>
+                            <input name="address" type="text" class="myInput" id="faddress" autocomplete="address">
+                            <span>Please provide your mailing address</span>
+                        </label>
+                    
+        
+                        <label><div>Cell Number* </div>
+                            <input name="phone" type="tel" class="myInput" placeholder="4325556789" autocomplete="tel"><br>
+                            <span>Phone number needs to be 10-15 digits</span>
+                        </label>
+                        
+        
+                        <div>Payment Method*</div>
+                        <label><input name="payMethod" type="radio" class="sbs"> VISA</label>
+                        <label><input name="payMethod" type="radio" class="sbs"> Master Card</label>
+                        <label><input name="payMethod" type="radio" class="sbs"> Discover</label>
+            
+                        <span>Please select a payment method for your cupcakes</span><br>
+                        <br>
+                        <label><div>Credit Card Number*</div>
+                            <input name="ccNumber" type="text" class="myInput" placeholder="1478 5236 9874 1584">
+                            <span>Card number number needs to be 14-19 numbers</span>
+                        </label>
+                     
+                        <label><div>Cupcakes*</div>
+                            <select name="Cupcakes" class="myInput">
+                                <option value="">Please Select</option>
+                                <option value="Coconut Cream Cupcakes">Coconut Cream Cupcakes</option>
+                                <option value="Triple Irish Cream Cupcakes">Triple Irish Cream Cupcakes</option> 
+                                <option value="Biscoff Cupcakes">Biscoff Cupcakes</option>
+                                <option value="Lemon Cream Pie Cupcakes">Lemon Cream Pie Cupcakes</option>
+                                <option value="Pumpkin Cupcakes">Pumpkin Cupcakes</option>
+                                <option value="Cookie Dough Cupcakes">Cookie Dough Cupcakes</option>
+                                <option value="	Orange Cream Pop Cupcakes">	Orange Cream Pop Cupcakes</option>
+                                <option value="Pistachio Cupcakes">Pistachio Cupcakes</option>
+                            </select>
+                        </label>
+                            <span>Please select a Cupcakes</span>
+                            <br><br>
+        
+                            <input type="submit" value="Payment" id="submitButton" class="submitBtn">
+        
+                    </div>
+
+    </div>
+    <div class="table1">
+        <main id="main1">
+            <table border="1" style="width:100%;border: 1px solid black;border-collapse: collapse; padding:0px;border-spacing: 5px;">
+                <caption>
+                    <b>Our delicious selection of Cupcakes for you to enjoy!</b>
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Cupcake name</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="coconut.jpg" width="100"></td>
+                        <td>Coconut Cream Cupcakes</td>
+                        <td>Plain pleasure.</td>
+                        <td>$2.95</td>
+                        <td><a href="coconutcake.html">View details</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="Irish.png" width="100"></td>
+                        <td>Triple Irish Cream Cupcakes</td>
+                        <td>Our famouse cupcakes</td>
+                        <td>$4.95</td>
+                        <td><a href="Triple Irish Cream Cupcakes.html">View details</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="spice.jpg" width="100"></td>
+                        <td>Spice Cupcakes</td>
+                        <td>A Christmas favorite</td>
+                        <td>$1.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Bisffo.jpg" width="100"></td>
+                        <td>Biscoff Cupcakes</td>
+                        <td>Plain cheese Cupcakes!</td>
+                        <td>$3.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="lemon.jpg" width="100"></td>
+                        <td>Lemon Cream Pie Cupcakes</td>
+                        <td>A summer classic!</td>
+                        <td>$2.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="pumkin.jpg" width="100"></td>
+                        <td>Pumpkin Cupcakes</td>
+                        <td>Our Halloween favorite</td>
+                        <td>$5.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="cookie.jpg" width="100"></td>
+                        <td>Cookie Dough Cupcakes</td>
+                        <td>Happy holidays with this pie!</td>
+                        <td>$9.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="orange1.jpg" width="100"></td>
+                        <td>Orange Cream Pop Cupcakes</td>
+                        <td>You'll love it!</td>
+                        <td>$6.95</td>
+                        <td>View details</td>
+                    </tr>
+                    <tr>
+                        <td><img src="Pistachio.jpg" width="100"></td>
+                        <td>Pistachio Cupcakes</td>
+                        <td>One of the Cupcakes you'll ever find!</td>
+                        <td>$6.95</td>
+                        <td>View details</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        
+    </div>
+</div>
+
+        <footer>
+            <p>Our address is <address>Khivi's CupCakes Shop - 529 Bakery Street San Jose California</address></p>
+            <small>&copy;2020 Khivi's Cupcakes Shop -All rights reserved</small>
+
+        </footer>
+
+    </div>
+
+
+</body>
+</html>
